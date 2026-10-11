@@ -1,0 +1,12 @@
+# 工作区记忆与本地配置（不上传）
+.workbuddy/
+
+# 操作系统垃圾文件
+.DS_Store
+Thumbs.db
+desktop.ini
+nul
+
+# 编辑器
+*.swp
+*~
