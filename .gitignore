@@ -10,3 +10,8 @@ nul
 # 编辑器
 *.swp
 *~
+
+# 本地预览资产（不上传）
+_github_preview.html
+_make_preview.py
+_ref.html

@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>高性价比基础教育指南 · 检索页</title>
+<meta name="description" content="84 条循证教育建议检索：课堂、复习、家校、学校资源、迷思证伪五篇。每条写明给谁、成本、见效周期、收益四维（学业/动机/幸福感/公平）、证据等级与反方证据，可按篇目、身份、证据等级、成本、见效周期检索。">
+<meta name="keywords" content="教育,循证,教学,证据等级,元分析,EEF,提取练习,家校沟通,迷思,学习风格">
+<meta name="author" content="musicer03">
+<meta name="theme-color" content="#0969da" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230969da'/%3E%3Cpath d='M14 34l10 10 24-26' fill='none' stroke='white' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="高性价比基础教育指南">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:url" content="https://musicer03.github.io/eduact/">
+<meta property="og:title" content="高性价比基础教育指南 · 检索页">
+<meta property="og:description" content="84 条循证教育建议：每条写明给谁、成本、收益四维、证据等级与反方证据，支持多维检索。">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="style.css">
+<script src="data.js"></script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Dataset",
+"name":"高性价比基础教育指南（84 条循证建议）",
+"description":"84 条教育建议的结构化数据：篇目、身份、成本、见效周期、证据等级、反方证据与出处。",
+"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/",
+"isAccessibleForFree":true,
+"inLanguage":"zh-CN",
+"creator":{"@type":"Person","name":"musicer03"},
+"keywords":"教育 循证 证据等级 元分析 EEF"}
+</script>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1>高性价比基础教育指南</h1>
+    <p class="sub">讲教师花几分钟课堂动作就能换回明显学习收益的做法，讲学生怎么复习才不白熬夜，讲家长怎么陪、怎么跟学校打交道，讲校长手里那点人财物先投给什么。也讲哪些流行做法其实是迷思。<br>
+    全书 <b>84 条</b>，每条写明给谁、花掉什么、换回什么、证据有多硬、什么时候该停。来源只引期刊论文与 EEF 等官方证据库。</p>
+    <div class="searchbar">
+      <svg viewBox="0 0 24 24" class="ico"><path d="M20 20l-3.5-3.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      <input id="q" type="search" placeholder="搜索条目：试试  手机 / 作业 / 家长 / 测验 / 反馈 …" autocomplete="off" aria-label="搜索条目">
+      <kbd>/</kbd>
+    </div>
+    <div class="topmeta">
+      <span id="count" class="count"></span>
+      <a class="gh" href="https://github.com/musicer03/eduact" target="_blank" rel="noopener">GitHub 仓库 ↗</a>
+      <a class="gh" href="https://github.com/musicer03/eduact/blob/main/README.md" target="_blank" rel="noopener">README ↗</a>
+      <button id="theme" class="gh" type="button" aria-label="切换深浅主题">◐ 主题</button>
+    </div>
+  </div>
+</header>
+
+<div class="wrap layout">
+  <button id="filterToggle" class="filter-toggle" type="button" aria-expanded="false">☰ 筛选</button>
+  <aside id="filters" class="filters">
+    <div class="fgroup">
+      <div class="ft">篇目</div>
+      <div class="chips" data-dim="part">
+        <button class="chip on" data-v="*">全部</button>
+        <button class="chip" data-v="teacher">教师篇 <i>31</i></button>
+        <button class="chip" data-v="student">学生篇 <i>15</i></button>
+        <button class="chip" data-v="parent">家长篇 <i>15</i></button>
+        <button class="chip" data-v="manager">管理者篇 <i>11</i></button>
+        <button class="chip" data-v="myth">迷思证伪篇 <i>12</i></button>
+      </div>
+    </div>
+    <div class="fgroup">
+      <div class="ft">给谁</div>
+      <div class="chips" data-dim="who">
+        <button class="chip on" data-v="*">不限</button>
+        <button class="chip" data-v="教师">教师</button>
+        <button class="chip" data-v="学生">学生</button>
+        <button class="chip" data-v="家长">家长</button>
+        <button class="chip" data-v="管理者">管理者</button>
+      </div>
+    </div>
+    <div class="fgroup">
+      <div class="ft">证据等级 <small>A=元分析/RCT 有效应量 · B=准实验/高质量综述 · C=实践共识</small></div>
+      <div class="chips" data-dim="levelGroup">
+        <button class="chip on" data-v="*">不限</button>
+        <button class="chip" data-v="A">A <i>27</i></button>
+        <button class="chip" data-v="B">B <i>55</i></button>
+        <button class="chip" data-v="C">C <i>2</i></button>
+      </div>
+    </div>
+    <div class="fgroup">
+      <div class="ft">成本 <small>迷思证伪篇为认知纠偏，不设成本维度</small></div>
+      <div class="chips" data-dim="costTier">
+        <button class="chip on" data-v="*">不限</button>
+        <button class="chip" data-v="零成本">零成本 <i>58</i></button>
+        <button class="chip" data-v="低成本">低成本 <i>14</i></button>
+      </div>
+    </div>
+    <div class="fgroup">
+      <div class="ft">见效周期</div>
+      <div class="chips" data-dim="cycleTier">
+        <button class="chip on" data-v="*">不限</button>
+        <button class="chip" data-v="即时起效">即时起效 <i>13</i></button>
+        <button class="chip" data-v="周级">周级 <i>44</i></button>
+        <button class="chip" data-v="月级">月级 <i>1</i></button>
+        <button class="chip" data-v="学期级">学期级 <i>14</i></button>
+      </div>
+    </div>
+    <button id="reset" class="reset" type="hidden">重置全部筛选</button>
+    <p class="fnote">同一组内多选为"或"，组与组之间为"且"。检索不改变书内顺序（每篇内按证据强度 × 成本 × 见效速度排）。</p>
+  </aside>
+
+  <main class="main">
+    <div id="list" class="list"></div>
+    <div id="empty" class="empty" hidden>没有匹配的条目。试试减少筛选条件，或换个关键词（如"睡眠""提问""作业"）。</div>
+    <footer class="foot">
+      <p>本页数据由 <code>tools/build_search_data.py</code> 从仓库 <code>book/</code> 五篇正文与 <code>data/条目台账.csv</code> 自动生成——<b>改正文即改这里</b>。正文与完整证据链在 <a href="https://github.com/musicer03/eduact" target="_blank" rel="noopener">GitHub 仓库</a>。</p>
+      <p>内容以 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>（署名—非商业—相同方式共享）发布 · musicer03 · 2026-10<br>证据主要来自国际研究，"本土适配"为中职场景转译而非本土验证；政策类内容以教育部及地方现行文件为准。</p>
+    </footer>
+  </main>
+</div>
+
+<noscript>
+  <div class="wrap">
+    <h2>检索功能需要 JavaScript</h2>
+    <p>正文可直接阅读：<a href="https://github.com/musicer03/eduact/blob/main/README.md">README</a> 目录，正文在仓库 book/ 下：
+    <a href="https://github.com/musicer03/eduact/blob/main/book/%E6%95%99%E5%B8%88%E7%AF%87.md">教师篇</a> ·
+    <a href="https://github.com/musicer03/eduact/blob/main/book/%E5%AD%A6%E7%94%9F%E7%AF%87.md">学生篇</a> ·
+    <a href="https://github.com/musicer03/eduact/blob/main/book/%E5%AE%B6%E9%95%BF%E7%AF%87.md">家长篇</a> ·
+    <a href="https://github.com/musicer03/eduact/blob/main/book/%E7%AE%A1%E7%90%86%E8%80%85%E7%AF%87.md">管理者篇</a> ·
+    <a href="https://github.com/musicer03/eduact/blob/main/book/%E8%BF%B7%E6%80%9D%E7%AF%87.md">迷思证伪篇</a></p>
+  </div>
+</noscript>
+
+<script>
+(function(){
+'use strict';
+var DATA = window.EDU_DATA, ENTRIES = DATA.entries;
+var REPO = 'https://github.com/musicer03/eduact/blob/main/';
+var PART_FILE = {teacher:'book/教师篇.md', student:'book/学生篇.md', parent:'book/家长篇.md', manager:'book/管理者篇.md', myth:'book/迷思篇.md'};
+var PART_NAME = {teacher:'教师篇', student:'学生篇', parent:'家长篇', manager:'管理者篇', myth:'迷思证伪篇'};
+var LEVEL_CLASS = {'A':'lv-a','A-':'lv-a','B':'lv-b','B-':'lv-b','C':'lv-c'};
+
+/* ---------- 主题 ---------- */
+(function(){
+  var s = localStorage.getItem('eduact-theme');
+  var dark = s ? s === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+  document.documentElement.classList.toggle('dark', dark);
+})();
+document.getElementById('theme').addEventListener('click', function(){
+  var dark = document.documentElement.classList.toggle('dark');
+  localStorage.setItem('eduact-theme', dark ? 'dark' : 'light');
+});
+
+/* ---------- 筛选状态 ---------- */
+var state = { q:'', part:new Set(), who:new Set(), levelGroup:new Set(), costTier:new Set(), cycleTier:new Set() };
+
+function matches(e){
+  if (state.part.size && !state.part.has(e.part)) return false;
+  if (state.who.size && !e.whoChips.some(function(w){return state.who.has(w)})) return false;
+  if (state.levelGroup.size && !state.levelGroup.has(e.levelGroup)) return false;
+  if (state.costTier.size && !state.costTier.has(e.costTier)) return false;
+  if (state.cycleTier.size && !state.cycleTier.has(e.cycleTier)) return false;
+  if (state.q){
+    var words = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+    var hay = (e.search + ' ' + e.id + ' ' + e.title).toLowerCase();
+    if (!words.every(function(w){return hay.indexOf(w) >= 0})) return false;
+  }
+  return true;
+}
+
+/* ---------- 渲染 ---------- */
+function esc(s){ return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function hl(title){
+  var t = esc(title);
+  if (!state.q) return t;
+  state.q.toLowerCase().split(/\s+/).filter(Boolean).forEach(function(w){
+    t = t.replace(new RegExp('(' + w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')','gi'), '<mark>$1</mark>');
+  });
+  return t;
+}
+function det(title, html, open){
+  if (!html || !html.trim()) return '';
+  return '<details' + (open ? ' open' : '') + '><summary>' + title + '</summary><div class="dbody">' + html + '</div></details>';
+}
+function card(e){
+  var meta = [];
+  meta.push('<span><b>给谁</b>' + esc(e.who || '—') + '</span>');
+  if (e.scene) meta.push('<span><b>场景</b>' + esc(e.scene) + '</span>');
+  if (e.cost) meta.push('<span><b>成本</b>' + esc(e.cost) + '</span>');
+  if (e.cycle) meta.push('<span><b>见效</b>' + esc(e.cycle) + '</span>');
+  var isMyth = e.part === 'myth';
+  var body = isMyth
+    ? det('迷思画像', e.myth) + det('证据怎么说', e.evidence) +
+      (e.defense ? det('为迷思辩护侧', e.defense) : det('争议/反方证据', e.oppose)) +
+      det('那该怎么办', e.action)
+    : det('收益（学业 / 动机 / 幸福感 / 公平）', e.gain, true) +
+      det('怎么做', e.how) +
+      det('争议 / 反方证据', e.oppose);
+  return '<article class="card" id="' + e.id + '">' +
+    '<div class="chead"><span class="eid">' + e.id + '</span>' +
+    '<h3 class="ct">' + hl(e.title) + '</h3>' +
+    '<span class="badge ' + (LEVEL_CLASS[e.level]||'lv-b') + '" title="证据等级：' + esc(e.levelText||e.level) + '">' + esc(e.level||'—') + '</span>' +
+    '<span class="pbadge">' + PART_NAME[e.part] + '</span>' +
+    '<a class="anchor" href="#' + e.id + '" aria-label="本条链接">#</a></div>' +
+    '<div class="cmeta">' + meta.join('') + '</div>' +
+    body +
+    det('停止信号', e.stop) +
+    det('本土适配', e.fit) +
+    det('出处', e.src) +
+    '<div class="csrc"><a href="' + REPO + encodeURI(PART_FILE[e.part]) + '" target="_blank" rel="noopener">在 GitHub 看本条原文 ↗</a></div>' +
+    '</article>';
+}
+function render(){
+  var vis = ENTRIES.filter(matches);
+  document.getElementById('count').textContent = '显示 ' + vis.length + ' / ' + ENTRIES.length + ' 条';
+  document.getElementById('empty').hidden = vis.length > 0;
+  document.getElementById('list').innerHTML = vis.map(card).join('');
+  if (location.hash){
+    var el = document.getElementById(location.hash.slice(1));
+    if (el){ el.classList.add('flash'); el.scrollIntoView({block:'start'}); }
+  }
+}
+
+/* ---------- 筛选 chips ---------- */
+document.querySelectorAll('.chips').forEach(function(box){
+  var dim = box.dataset.dim;
+  box.addEventListener('click', function(ev){
+    var btn = ev.target.closest('.chip'); if (!btn) return;
+    var v = btn.dataset.v;
+    if (v === '*'){ state[dim].clear(); }
+    else { state[dim].has(v) ? state[dim].delete(v) : state[dim].add(v); }
+    box.querySelectorAll('.chip').forEach(function(c){
+      var on = c.dataset.v === '*' ? state[dim].size === 0 : state[dim].has(c.dataset.v);
+      c.classList.toggle('on', on); c.setAttribute('aria-pressed', on);
+    });
+    render();
+  });
+});
+document.getElementById('reset').addEventListener('click', function(){
+  Object.keys(state).forEach(function(k){ state[k] = (k === 'q') ? '' : new Set(); });
+  document.getElementById('q').value = '';
+  document.querySelectorAll('.chips .chip').forEach(function(c){
+    c.classList.toggle('on', c.dataset.v === '*'); c.setAttribute('aria-pressed', c.dataset.v === '*');
+  });
+  render();
+});
+
+/* ---------- 搜索 ---------- */
+var q = document.getElementById('q'), timer;
+q.addEventListener('input', function(){
+  clearTimeout(timer);
+  timer = setTimeout(function(){ state.q = q.value.trim(); render(); }, 120);
+});
+addEventListener('keydown', function(ev){
+  if (ev.key === '/' && document.activeElement !== q){ ev.preventDefault(); q.focus(); q.select(); }
+  if (ev.key === 'Escape' && document.activeElement === q){ q.value = ''; state.q = ''; render(); q.blur(); }
+});
+
+/* ---------- 移动端筛选抽屉 ---------- */
+var ft = document.getElementById('filterToggle');
+ft.addEventListener('click', function(){
+  var open = document.getElementById('filters').classList.toggle('open');
+  ft.setAttribute('aria-expanded', open);
+});
+
+render();
+})();
+</script>
+</body>
+</html>
