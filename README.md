@@ -9,9 +9,15 @@
 
 [![条目](https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-84%20%E6%9D%A1-18794e?style=flat-square)](#目录结构)
 [![双向检索](https://img.shields.io/badge/%E5%8F%8C%E5%90%91%E6%A3%80%E7%B4%A2-84%2F84-915930?style=flat-square)](#证据分级)
+[![在线检索](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E6%A3%80%E7%B4%A2-%E7%82%B9%E8%BF%99%E9%87%8C%E6%89%93%E5%BC%80-3451b2?style=flat-square)](https://musicer03.github.io/eduact/)
+[![AI 照书回答](https://img.shields.io/badge/AI%20%E7%85%A7%E4%B9%A6%E5%9B%9E%E7%AD%94-skill-6d28d9?style=flat-square)](skills/eduact-guide/README.md)
 [![许可](https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-CC%20BY--NC--SA%204.0-565a5a?style=flat-square)](#许可)
 
 [总序](book/总序.md) · [总目录与阅读路线](book/总目录.md) · [在线检索页](https://musicer03.github.io/eduact/) · [核查记录](核查记录/) · [条目台账](data/条目台账.csv) · [淘汰留痕](book/附录-经审查未收录.md)
+
+### [打开在线检索页](https://musicer03.github.io/eduact/) · [让 AI 照书回答（skill）](skills/eduact-guide/README.md)
+
+AI 助手 skill 支持 Claude Code 和 Codex。装上后直接问「学生上课不肯发言怎么办」，它先查书里的条目再回答，并注明出自第几篇第几条。
 
 </div>
 
@@ -30,6 +36,7 @@
 ## 怎么读
 
 - **不用全做**：每篇内按证据强度×成本×见效速度排序，从每篇前几条看起，挑得动的先做。只想读 10 条的话，[总目录](book/总目录.md)里有快速上手清单和各身份的阅读路线。
+- **想让 AI 帮你查**：仓库里带了一个 skill（[skills/eduact-guide](skills/eduact-guide/)），Claude Code 和 Codex 都能装。装上以后直接问「提问没人理怎么办」「该不该按成绩排座位」，它先把相关条目从正文里查出来，再按证据等级和成本排序回答，并注明出自第几篇第几条。查不到就说查不到，不自己编数字。装法见[那个目录的说明](skills/eduact-guide/README.md)。
 - **收益分四维记账**：学业、动机、幸福感、公平各算各的，不折算——一条可以学业大赚、幸福感持平（如提取练习），也可以学业无效应、行为端大赚（如高频家校短信）。
 - **看懂数字**：效应量、额外月数、95% CI 这些词，见[附录二](book/附录-证据分级与检索来源.md)的速查表。
 
@@ -66,6 +73,7 @@ book/
 └── 附录-证据分级与检索来源.md       ← 方法论口径、效应量速查、更新记录
 
 data/          ← 候选清单、条目台账（全链路状态）
+skills/        ← 让 AI 照书回答的 skill（Claude Code / Codex 通用，正本在 skills/eduact-guide/SKILL.md）
 核查记录/      ← 每一批次的检索式与留痕
 工作方案.md    ← 项目宪法（方法论基线、流程、变更记录）
 ```
