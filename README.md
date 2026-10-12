@@ -11,7 +11,7 @@
 [![双向检索](https://img.shields.io/badge/%E5%8F%8C%E5%90%91%E6%A3%80%E7%B4%A2-84%2F84-915930?style=flat-square)](#证据分级)
 [![许可](https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-CC%20BY--NC--SA%204.0-565a5a?style=flat-square)](#许可)
 
-[总序](book/总序.md) · [总目录与阅读路线](book/总目录.md) · [核查记录](核查记录/) · [条目台账](data/条目台账.csv) · [淘汰留痕](book/附录-经审查未收录.md)
+[总序](book/总序.md) · [总目录与阅读路线](book/总目录.md) · [在线检索页](https://musicer03.github.io/eduact/) · [核查记录](核查记录/) · [条目台账](data/条目台账.csv) · [淘汰留痕](book/附录-经审查未收录.md)
 
 </div>
 
